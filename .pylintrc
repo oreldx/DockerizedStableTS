@@ -1,0 +1,14 @@
+[MASTER]
+
+disable=missing-docstring,
+        too-few-public-methods,
+        too-many-arguments,
+        too-many-instance-attributes,
+        too-many-locals,
+        too-many-branches,
+        too-many-statements,
+        too-many-function-args,
+        too-many-nested-blocks,
+        missing-module-docstring,
+        missing-class-docstring,
+        missing-function-docstring,

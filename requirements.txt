@@ -1,0 +1,4 @@
+stable-ts==2.15.11
+faster-whisper==1.0.1
+Flask==3.0.2
+Werkzeug==3.0.2
