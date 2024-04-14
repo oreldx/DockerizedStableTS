@@ -8,7 +8,7 @@ from werkzeug.utils import secure_filename
 app = Flask(__name__)
 
 model = stable_whisper.load_faster_whisper(
-    model_size_or_path="large-v2",
+    model_size_or_path=os.getenv("MODEL"),
     download_root=os.path.abspath("models"),
 )
 
